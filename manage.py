@@ -5,7 +5,7 @@ app.config.from_object(dict_config['config'])
 @app.route("/")
 def index():
     return 'ok'
-
+    print('are you ok')
 
 if __name__ == '__main__':
     app.run()
